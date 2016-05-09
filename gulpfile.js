@@ -19,7 +19,8 @@ gulp.task('inject', function () {
     var inject = require('gulp-inject');
 
     var injectSrc = gulp.src(['./public/css/*.css',
-                              './public/js/*.js'], {
+                              './public/js/*.js',
+                              './public/widget/*.js'], {
         read: false
     });
 

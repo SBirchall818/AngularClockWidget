@@ -18,8 +18,8 @@ module.exports = function(config) {
       'public/lib/angular/angular.js',
       'public/lib/angular-mocks/angular-mocks.js',
       'spec/**/*.js',
-      'public/widget/widget.html',
-      'public/widget/widget.directive.js'
+      'public/clock/clock.html',
+      'public/clock/clock.directive.js'
     ],
 
 
@@ -31,7 +31,7 @@ module.exports = function(config) {
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
-      'public/widget/widget.html': ['html2js']
+      'public/clock/clock.html': ['html2js']
     },
 
 

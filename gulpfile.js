@@ -20,7 +20,7 @@ gulp.task('inject', function () {
 
     var injectSrc = gulp.src(['./public/css/*.css',
                               './public/js/*.js',
-                              './public/widget/*.js'], {
+                              './public/clock/*.js'], {
         read: false
     });
 

@@ -1,8 +1,8 @@
 angular.module('app', [])
-    .directive('widget', function() {
+    .directive('clock', function() {
         return {
             replace: false,
             restrict: 'EA',
-            templateUrl: 'widget/widget.html'
+            templateUrl: 'clock/clock.html'
         };
     });

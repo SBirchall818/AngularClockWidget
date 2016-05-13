@@ -31,4 +31,10 @@ describe('clock directive', function() {
         var findh1 = directiveElem.find('h1');
         expect(findh1.text()).toEqual('Sample Clock');
     });
+    
+    it('should have hours minute and seconds on the scope', function() {
+        expect(scope.hours).toBeDefined();
+        expect(scope.minutes).toBeDefined();
+        expect(scope.seconds).toBeDefined();
+    });
 });

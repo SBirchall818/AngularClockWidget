@@ -1,0 +1,46 @@
+.clock{
+    background-color: #555;    
+    width: 95px;
+    height: 45px;
+    position: relative;
+    border: #000;
+    border-style: solid;
+}
+
+.hours{
+    font-size: 20px;
+    color: orange;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: "Lucida Console", monospace;
+    position: absolute;
+    left: 3px;
+}
+
+.minutes{
+    border-left:medium #000 solid; height:40px;
+    font-size: 20px;
+    color: orange;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 1px;
+    font-family: "Lucida Console", monospace;
+    position: absolute;
+    left: 30px;
+}
+
+.seconds{
+    border-left:medium #000 solid; height:40px;
+    font-size: 20px;
+    color: orange;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 1px;
+    font-family: "Lucida Console", monospace;
+    position: absolute;
+    left: 60px;
+}
+
+.verticalLine{
+    border-left:medium #CC0000 solid; height:300px;
+}

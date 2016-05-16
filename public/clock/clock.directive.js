@@ -11,9 +11,9 @@
             return directive;
 
             function link(scope, elem, attrs) {
-                scope.hours = 10;
-                scope.minutes = 08;
-                scope.seconds = 23;
+                scope.hours = '10';
+                scope.minutes = '08';
+                scope.seconds = '23';
                 
                 var tick = function() {
                     var now = moment();

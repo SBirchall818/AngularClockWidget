@@ -17,6 +17,7 @@ module.exports = function(config) {
     files: [
       'public/lib/angular/angular.js',
       'public/lib/angular-mocks/angular-mocks.js',
+      'public/lib/moment/moment.js',
       'spec/**/*.js',
       'public/clock/clock.html',
       'public/clock/clock.directive.js'

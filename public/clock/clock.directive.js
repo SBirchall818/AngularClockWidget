@@ -1,6 +1,6 @@
 (function() {
     angular.module('app', [])
-        .directive('clock', function($timeout) {
+        .directive('clock', function($interval) {
             var directive = {
                 replace: false,
                 restrict: 'EA',
@@ -20,9 +20,8 @@
                     scope.hours = now.format('hh');
                     scope.minutes = now.format('mm');
                     scope.seconds = now.format('ss');
-                    $timeout(tick, 1000);
                 };
-                $timeout(tick, 1000);
+                $interval(tick, 1000);
             }
         });
 })();
